@@ -1,0 +1,27 @@
+.actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  .secondaryActions {
+    display: flex;
+    gap: 15px;
+  }
+  .undo {
+    width: 81.03px;
+    span {
+      display: inline-block;
+      transform-origin: center;
+      rotate: 15deg;
+      font-size: 36px;
+      padding-bottom: 10px;
+      transition: rotate 0.3s ease;
+    }
+  }
+  .undo:active {
+    span{
+      rotate: -90deg;
+    }
+  }
+  .delete {
+    width: 124px;
+  }
